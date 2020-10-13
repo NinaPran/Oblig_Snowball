@@ -118,7 +118,7 @@ a:active {
 }
 
 .text-box {
-    width: 50%;
+    width: 70%;
     background-color: #F4FDFE;
     border: 2px solid #305640;
     margin: 0 auto;
@@ -133,7 +133,7 @@ a:active {
 }
 
 .clima-image-box {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
     }
@@ -150,14 +150,14 @@ a:active {
 }
 
 .image-dead-container {
-    width: 50%;
+    width: 70%;
     border: 2px solid #305640;
     margin: 0 auto;
     text-align: center;
 }
 
 .image-sappling-container {
-    width: 50%;
+    width: 70%;
     border: 2px solid #305640;
     margin: 0 auto;
     text-align: center;
