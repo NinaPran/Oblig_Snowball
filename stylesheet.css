@@ -6,7 +6,7 @@ body {
     color: white;
 }
 
-h1{
+h1 {
     color: #707070;
     font-size: 50px;
 }
@@ -17,18 +17,17 @@ img {
     width: 100%
 }
 
-
 * {
     box-sizing: border-box;
 }
 
 p {
-  text-align: left;
+    text-align: left;
 }
 
 h2 {
-  font-size: 30px;
-  color: #707070;
+    font-size: 30px;
+    color: #707070;
 }
 
 a:link {
@@ -135,13 +134,11 @@ a:active {
 .clima-image-box {
     width: 70%;
     margin: 0 auto;
-    text-align: center;
-    }
+}
 
 .image-storm-container {
     width: 100%;
     border: 2px solid #305640;
-
 }
 
 .image-protest-container {
@@ -153,14 +150,12 @@ a:active {
     width: 70%;
     border: 2px solid #305640;
     margin: 0 auto;
-    text-align: center;
 }
 
 .image-sappling-container {
     width: 70%;
     border: 2px solid #305640;
     margin: 0 auto;
-    text-align: center;
 }
 
 .footer {
@@ -185,4 +180,15 @@ a:active {
     margin-bottom: 50px;
     width: 100%;
     float: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .top-container {
+        height: 650px;
+        padding-top: 185px;
+        background-size: 100%;
+    }
+    @media only screen and (max-width: 900px){
+        
+    }
 }
