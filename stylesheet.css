@@ -8,6 +8,7 @@ body {
 
 h1{
     color: #707070;
+    font-size: 50px;
 }
 
 img {
@@ -21,13 +22,22 @@ img {
     box-sizing: border-box;
 }
 
+p {
+  text-align: left;
+}
+
+h2 {
+  font-size: 30px;
+  color: #707070;
+}
+
 a:link {
-    color: rgb(255, 255, 255);
+    color: #707070;
     font-weight: bold;
 }
 
 a:visited {
-    color: rgb(255, 255, 255);
+    color: gray;
     background-color: transparent;
     text-decoration: underline;
 }
@@ -79,8 +89,11 @@ a:active {
 
 .top-container {
     background-image: url('img/Tree.jpg');
-    height: 500px;
-    padding-top: 100px;
+    height: 700px;
+    padding-top: 250px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .plant-box {
@@ -110,6 +123,8 @@ a:active {
     border: 2px solid #305640;
     margin: 0 auto;
     text-align: center;
+    padding: 20px;
+    color: #707070;
 }
 
 .right-side {
@@ -126,7 +141,7 @@ a:active {
 .image-storm-container {
     width: 100%;
     border: 2px solid #305640;
-    
+
 }
 
 .image-protest-container {
@@ -156,9 +171,18 @@ a:active {
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    padding-left: 40px;
     background-color: #BDA68A;
+    color: white;
 }
 
 .contact-info {
     flex: auto;
+}
+
+.to-the-top {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+    float: center;
 }
