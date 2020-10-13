@@ -1,7 +1,130 @@
-.header{
-
+body {
+    margin: 0;
+    font-family: Arial, Verdana, sans-serif;
+    overflow: auto;
+    background-color: #F0E6DA;
+    color: white;
 }
 
-.main{
-    
+img {
+    display: block;
+    overflow: hidden;
+    width: 100%
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.header {
+    background-color: #BDA68A;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.header a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.center-menu {
+    margin: auto;
+}
+
+.main {
+    max-width: 1500px;
+    margin: 50px auto 0 auto;
+}
+
+.top-container {
+    background-image: url('img/Tree');
+    height: 500px;
+}
+
+.plant-box {
+    background-color: #F0E6DA;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #305640;
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.container {
+    float: left;
+    width: 100%;
+}
+
+.left-side {
+    float: left;
+    width: 50%;
+}
+
+.text-box {
+    background-color: #F4FDFE;
+}
+
+.right-side {
+    float: right;
+    width: 50%;
+}
+
+.clima-image-box {}
+
+.image-storm-container {}
+
+.image-protest-container {}
+
+.image-dead-container {}
+
+.image-sappling-container {}
+
+.footer {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #BDA68A;
+}
+
+.contact-info {
+    flex: auto;
 }
