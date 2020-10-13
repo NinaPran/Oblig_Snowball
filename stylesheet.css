@@ -23,6 +23,8 @@ img {
 
 p {
     text-align: left;
+    font-size: 18px;
+    line-height: 150%;
 }
 
 h2 {
@@ -122,8 +124,9 @@ a:active {
     border: 2px solid #305640;
     margin: 0 auto;
     text-align: center;
-    padding: 20px;
+    padding: 3% 6%;
     color: #707070;
+    
 }
 
 .right-side {
@@ -189,6 +192,6 @@ a:active {
         background-size: 100%;
     }
     @media only screen and (max-width: 900px){
-        
+
     }
 }
