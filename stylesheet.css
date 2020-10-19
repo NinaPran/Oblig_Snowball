@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: Arial, Verdana, sans-serif;
@@ -7,7 +11,7 @@ body {
 }
 
 h1 {
-    color: #707070;
+    color: #666666;
     font-size: 50px;
 }
 
@@ -31,18 +35,18 @@ p {
 
 h2 {
     font-size: 30px;
-    color: #707070;
+    color: #666666;
 }
 
 /* Link and header based on w3school.com*/
 
 a:link {
-    color: #707070;
+    color: #666666;
     font-weight: bold;
 }
 
 a:visited {
-    color: gray;
+    color: #666666;
     background-color: transparent;
     text-decoration: underline;
 }
@@ -60,7 +64,7 @@ a:active {
 }
 
 .header {
-    background-color: #BDA68A;
+    background-color: #7F6648;
     height: 50px;
     position: fixed;
     width: 100%;
@@ -131,7 +135,7 @@ a:active {
     border: 2px solid #305640;
     margin: 0 auto;
     padding: 44px 63px;
-    color: #707070;
+    color: #666666;
     width: 500px;
 }
 
@@ -170,7 +174,7 @@ a:active {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 40px;
-    background-color: #BDA68A;
+    background-color: #7F6648;
     color: white;
 }
 
