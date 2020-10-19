@@ -14,7 +14,9 @@ h1 {
 img {
     display: block;
     overflow: hidden;
-    width: 100%
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 * {
@@ -86,10 +88,12 @@ a:active {
 }
 
 .main {
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 50px auto 0 auto;
 }
+
 /* Referanse bilde: https://unsplash.com/photos/qwHHOC2z5Xs */
+
 .top-container {
     background-image: url('img/Tree.jpg');
     height: 900px;
@@ -112,55 +116,49 @@ a:active {
 .container {
     float: left;
     width: 100%;
-    margin: 3% 0;
+    /* margin: 3% 0; */
 }
 
 .left-side {
     float: left;
     width: 50%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
 .text-box {
-    width: 70%;
     background-color: #F4FDFE;
     border: 2px solid #305640;
     margin: 0 auto;
-    padding: 3% 6%;
+    padding: 44px 63px;
     color: #707070;
-
+    width: 500px;
 }
 
 .right-side {
     float: right;
     width: 50%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
-.clima-image-box {
-    width: 70%;
+.image-container {
+    width: 500px;
+    border: 2px solid #305640;
     margin: 0 auto;
+    overflow: hidden;
 }
 
-.image-storm-container {
-    width: 100%;
-    border: 2px solid #305640;
-}
-
-.image-protest-container {
-    width: 100%;
-    border: 2px solid #305640;
-    margin-top: 10px;
+.image-glacier-container {
+    height: 630px;
 }
 
 .image-dead-container {
-    width: 70%;
-    border: 2px solid #305640;
-    margin: 0 auto;
+    height: 666px;
 }
 
 .image-sappling-container {
-    width: 70%;
-    border: 2px solid #305640;
-    margin: 0 auto;
+    height: 586px;
 }
 
 .footer {
@@ -187,33 +185,30 @@ a:active {
     float: center;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1050px) {
     .top-container {
         height: 650px;
         padding-top: 185px;
         background-size: 100%;
     }
-    .footer {
-       padding-left: 20px;
+    .left-side {
+        width: 100%;
     }
-    @media only screen and (max-width: 900px){
-      .left-side {
-          float: left;
-          width: 100%;
-          margin-bottom: 50px;
-      }
-      .right-side {
-          float: right;
-          width: 100%;
+    .right-side {
+        width: 100%;
+    }
+    .footer {
+        padding-left: 20px;
+    }
+    @media only screen and (max-width: 900px) {
+        .footer {
+            padding-left: 15px;
         }
-      .footer {
-         padding-left: 15px;
-      }
         @media only screen and (max-width: 850px) {
-          .top-container {
-              height: 550px;
-              padding-top: 150px;
-              background-size: 100%;
+            .top-container {
+                height: 550px;
+                padding-top: 150px;
+                background-size: 100%;
             }
             .plant-box {
                 max-width: 400px;
@@ -221,43 +216,43 @@ a:active {
                 padding-right: 40px;
             }
             h1 {
-              font-size: 40px;
+                font-size: 40px;
             }
             .footer {
-               padding-left: 10px;
+                padding-left: 10px;
             }
-              @media only screen and (max-width: 700px){
+            @media only screen and (max-width: 700px) {
                 .top-container {
                     height: 450px;
                     padding-top: 100px;
                     background-size: 100%;
-                  }
-                  .plant-box {
-                      max-width: 350px;
-                      padding-left: 40px;
-                      padding-right: 40px;
-                  }
-                  h1 {
+                }
+                .plant-box {
+                    max-width: 350px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                }
+                h1 {
                     font-size: 30px;
-                  }
-              }
-                @media only screen and (max-width: 504px) {
-                  .header a {
-                      padding: 16px 16px;
-                      font-size: 12px;
-                  }
-                  .top-container {
-                      height: 350px;
-                      padding-top: 80px;
-                      background-size: 100%;
-                    }
-                    .plant-box {
-                        max-width: 300px;
-                        padding-left: 40px;
-                        padding-right: 40px;
-                    }
-                    h1 {
-                      font-size: 25px;
-                    }
+                }
+            }
+            @media only screen and (max-width: 504px) {
+                .header a {
+                    padding: 16px 16px;
+                    font-size: 12px;
+                }
+                .top-container {
+                    height: 350px;
+                    padding-top: 80px;
+                    background-size: 100%;
+                }
+                .plant-box {
+                    max-width: 300px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                }
+                h1 {
+                    font-size: 25px;
+                }
+            }
         }
-}
