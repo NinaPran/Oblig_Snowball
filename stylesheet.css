@@ -32,6 +32,8 @@ h2 {
     color: #707070;
 }
 
+/* Link and header based on w3school.com*/
+
 a:link {
     color: #707070;
     font-weight: bold;
@@ -87,7 +89,7 @@ a:active {
     max-width: 1500px;
     margin: 50px auto 0 auto;
 }
-
+/* Referanse bilde: https://unsplash.com/photos/qwHHOC2z5Xs */
 .top-container {
     background-image: url('img/Tree.jpg');
     height: 900px;
