@@ -92,8 +92,11 @@ a:active {
 }
 
 .main {
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 50px auto 0 auto;
+}
+.container-content{
+    max-width: 1300px;
 }
 
 /* Referanse bilde: https://unsplash.com/photos/qwHHOC2z5Xs */
@@ -105,7 +108,7 @@ a:active {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-}
+   }
 
 .plant-box {
     background-color: #F0E6DA;
